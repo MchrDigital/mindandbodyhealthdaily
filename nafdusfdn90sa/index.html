@@ -65,7 +65,7 @@
 </style>
 
 <script>
-  var delaySeconds = 1976;
+  var delaySeconds = 1976 * 1000;
   var player = document.querySelector("vturb-smartplayer");
   player.addEventListener("player:ready", function() {
     player.displayHiddenElements(delaySeconds, [".esconder"], {
